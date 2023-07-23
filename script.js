@@ -6,9 +6,36 @@
 // Will give user the option to select random which will Randomize the colour 
 // of the square divs when drawing 
 
-
+let selectBtn = document.querySelector(".select");
 let container = document.querySelector('.containerForBoard');
+  createBoard(16);
 
-container.style.cssText = "grid-template-columns: repeat(16,1fr); grid-template-rows:repeat(16,1fr);"
+selectBtn.addEventListener("click", () => {
+  let userChoice = +prompt("Enter the size of the board\n Note maximum is 100");
+  if (userChoice < 0  || userChoice > 100) {
+    alert("Please enter between 0 and 100");
+    userChoice = +prompt("Enter the size of the board\n Note maximum is 100");
+  }else {
+    getUserChoice(userChoice);
+
+  }
+  
+
+});
+
+
+function getUserChoice (size) {
+  container.style.cssText = `grid-template-columns: repeat(${size},1fr); grid-template-rows:repeat(${size},1fr);`;
+
+}
+function createBoard(size){
+  container.style.cssText = `grid-template-columns: repeat(${size},1fr); grid-template-rows:repeat(${size},1fr);`;
+
+}
+
+
+
+
+
 
 

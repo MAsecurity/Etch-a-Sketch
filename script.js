@@ -5,3 +5,10 @@
 // Will include hovering which changes colour of div
 // Will give user the option to select random which will Randomize the colour 
 // of the square divs when drawing 
+
+
+let container = document.querySelector('.containerForBoard');
+
+container.style.cssText = "grid-template-columns: repeat(16,1fr); grid-template-rows:repeat(16,1fr);"
+
+

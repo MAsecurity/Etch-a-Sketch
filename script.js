@@ -13,9 +13,9 @@ document.querySelector("body").addEventListener("click", function(e) {
     let text = document.querySelector("#draw");
     click = !click;
     if (click) {
-      text.textContent = "You can draw";
+      text.textContent = "Drawing enabled";
     }else{
-      text.textContent = "You can't draw";
+      text.textContent = "Drawing disabled";
     }
   }
   

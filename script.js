@@ -50,6 +50,10 @@ function getUserChoice (size) {
 
 function mouseOver(newDiv) {
   let blackBtn = document.querySelector(".black");
+  let resetBtn = document.querySelector(".reset");
+  //Added a hover class
+  newDiv.classList.add("changeColour");
+  // if black button is clicked moving over a button will change colour to black permenatly
   blackBtn.addEventListener("click", () => {
     newDiv.addEventListener("mouseover", () => {
       newDiv.style.cssText = "background-color: black";
@@ -57,6 +61,14 @@ function mouseOver(newDiv) {
   
 
   });
+// reset the values when the reset button is clicked
+  resetBtn.addEventListener("click", () => {
+    newDiv.style.cssText = "background-colour: #e4e0e0";
+  });
+
+// randomize the colour of the divs when the random button is clicked
+  Math.floor(Math.random() * 256);
+  // Will generate
 
 
 }

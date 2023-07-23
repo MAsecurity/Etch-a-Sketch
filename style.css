@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Roboto, 'sans-serif';
+}
+
+body{
+  background-color: rgb(197, 197, 197);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: red;
+  height: 700px;
+  width: 700px;
+  border-radius: 10px;
+
+
+}
+
+.containerForDivs {
+  background-color: #e4e0e0;
+  
+}
+
+.title {
+  color: gold;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  height: 5%;
+  font-size: 25px;
+}
+
+
+.infoForDivs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+ 
+  
+}
+
+.roundCircle1, .roundCircle2{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color:  rgb(248, 248, 248);
+
+
+}

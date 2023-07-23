@@ -23,20 +23,19 @@ body{
   justify-content: space-between;
   padding: 20px;
   background-color: red;
-  height: 700px;
-  width: 700px;
   border-radius: 10px;
   gap: 4px;
 
 
 }
 
-.containerForDivs {
+.containerForBoard {
   background-color: #e4e0e0;
   width: 500px;
   height: 500px;
   border: 2px solid black;
   align-self: center;
+  display: grid;
 
   
 }
@@ -52,13 +51,12 @@ body{
 }
 
 
-.infoForDivs {
+.infoForBoard {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 100px;
-  margin-top: 5px;
- 
+  
   
 }
 
@@ -71,13 +69,9 @@ body{
 
 }
 
-.squareItem{
-  background-color: black;
-  width: 5px;
-  height: 5px;
-}
 
-.options button {
+
+.options button{
   width: 80px;
   height: 40px;
   font-size: 16px;
@@ -86,6 +80,7 @@ body{
   background-color: rgb(248, 248, 248,0);
   cursor: pointer;
   border: 1px solid white;
+  border-radius: 2px;
   transition: 0.15s;
 
 }
@@ -108,8 +103,17 @@ body{
 
 .black:hover {
   background-color: rgb(0, 0, 0);
+  
 
 }
+
+.label-for-button {
+  color: rgb(248, 248, 248);
+  font-style: italic;
+  display: inline;
+}
+
+
 
 
 

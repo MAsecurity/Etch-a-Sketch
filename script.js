@@ -1,8 +1,10 @@
-let color = 'black';
 let selectBtn = document.querySelector(".select");
 let container = document.querySelector('.containerForBoard');
 // Set a variable click to false
 let click = false;
+
+// Set default global colour variable  to black
+let color = 'black';
 
 // Default create 16 by 16 board
   createBoard(16);

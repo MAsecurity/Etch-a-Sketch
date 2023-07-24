@@ -12,7 +12,7 @@ During the development of the Etch-a-Sketch project, I gained valuable knowledge
 - DOM manipulation: 
   I learned how to interact with the Document Object Model (DOM) to dynamically update the user interface and create interactive features.
 - Events: 
-  implementing mouseover and click events allowed me to respond to user actions effectively, enabling drawing functionality based on user interactions.
+  Implementing mouseover and click events allowed me to respond to user actions effectively, enabling drawing functionality based on user interactions.
 - CSS Grid:
   CSS Grid was utilized to create the grid-based layout, which efficiently arranged the square divs to form the drawing board.
 - User Input Handling:

@@ -7,7 +7,7 @@ The Etch-a-Sketch project is an interactive drawing application built using HTML
 The application also features a "Select" button that allows users to choose the size of the drawing board. The board can be set to various sizes, from 0 by 0 up to a maximum of 100 by 100 squares, providing flexibility and customization for users' artistic endeavors.
 Additionally, there is a "Reset" button that clears the drawing, allowing users to start with a fresh canvas and create new artwork.
 
-## What i learned
+## What i learned ?
 During the development of the Etch-a-Sketch project, I gained valuable knowledge and skills in the following areas:
 - DOM manipulation: 
   I learned how to interact with the Document Object Model (DOM) to dynamically update the user interface and create interactive features.

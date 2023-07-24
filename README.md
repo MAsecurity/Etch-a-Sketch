@@ -1,6 +1,6 @@
 # Etch-a-Sketch
 - Live demo -> https://masecurity.github.io/Etch-a-Sketch/
-  <img src="./images/tree.png" width="100" height="auto" alt="A sketch of a tree" />
+- <img src="./images/tree.png" width="300" height="auto" alt="A sketch of a tree" />
 ## What is Etch-a-Sketch
 The Etch-a-Sketch project enables users to draw and create their own sketches. 
 Users can select either random or black as the color, and then by clicking the mouse, they can enable drawing on the board. 

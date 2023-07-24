@@ -6,7 +6,7 @@ let click = false;
 // Set default global colour variable  to black
 let color = 'black';
 
-// Default create 16 by 16 board
+// Default create 16 by 16 board 
   createBoard(16);
 
 // click to draw feature

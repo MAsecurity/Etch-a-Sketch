@@ -4,7 +4,7 @@ Live demo -> https://masecurity.github.io/Etch-a-Sketch/
 
 ## What is Etch-a-Sketch
 The Etch-a-Sketch project is an interactive drawing application built using HTML, CSS, and JavaScript. It allows users to draw and create their sketches on a grid-based canvas. Users can toggle drawing mode on and off by clicking anywhere on the canvas. When drawing mode is enabled, users can hover over the board to draw using either the default black color or a random color.
-The application also features a "Select" button that allows users to choose the size of the drawing board. The board can be set to various sizes, from 16 by 16 up to a maximum of 100 by 100 squares, providing flexibility and customization for users' artistic endeavors.
+The application also features a "Select" button that allows users to choose the size of the drawing board. The board can be set to various sizes, from 0 by 0 up to a maximum of 100 by 100 squares, providing flexibility and customization for users' artistic endeavors.
 Additionally, there is a "Reset" button that clears the drawing, allowing users to start with a fresh canvas and create new artwork.
 
 ## What i learned

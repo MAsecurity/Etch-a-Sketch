@@ -1,6 +1,6 @@
 # Etch-a-Sketch
 Live demo -> https://masecurity.github.io/Etch-a-Sketch/  
-<img src="./images/Smile.png" width="300" height="auto" alt="A sketch of a tree" />
+<img src="./images/Smiling.png" width="300" height="auto" alt="A sketch of a tree" />
 
 ## What is Etch-a-Sketch
 The Etch-a-Sketch project is an interactive drawing application built using HTML, CSS, and JavaScript. It allows users to draw and create their sketches on a grid-based canvas. Users can toggle drawing mode on and off by clicking anywhere on the canvas. When drawing mode is enabled, users can hover over the board to draw using either the default black color or a random color.

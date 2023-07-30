@@ -7,7 +7,7 @@ let click = false;
 let color = 'black';
 
 // Default create 16 by 16 board 
-  createBoard(16);
+createBoard(16);
 
 // click to draw feature
 document.querySelector("body").addEventListener("click", function(e) {
@@ -27,15 +27,22 @@ document.querySelector("body").addEventListener("click", function(e) {
 
 // Extract user choice if the select button is clicked
 selectBtn.addEventListener("click", () => {
-  let userChoice = +prompt("Enter the size of the board\nNote maximum is 100");
-  if (userChoice < 0  || userChoice > 100) {
-    alert("Please enter between 0 and 100");
-    userChoice = +prompt("Enter the size of the board\nNote maximum is 100");
-  }else {
-    createBoard(userChoice);
+  let validatedInput = false;
+  while(validatedInput === false) {
+    let userChoice = prompt("Enter the size of the board\nNote maximum is 100");
+    if (userChoice === null || userChoice === '' || isNaN(userChoice) || userChoice < 0 || userChoice > 100){
+      alert("You did not enter a valid number between 0 and 100");
+      continue;
 
-  }
-  
+    }
+    else{
+      //Break out of loop and convert input to integer and call function createBoard
+      validatedInput = true;
+      let sizeChosen = +userChoice;
+      createBoard(sizeChosen);
+    }
+
+  }  
 
 });
 

@@ -1,5 +1,6 @@
 # Etch-a-Sketch
-Live demo -> https://masecurity.github.io/Etch-a-Sketch/  
+Live demo &#128073; https://masecurity.github.io/Etch-a-Sketch/  
+<br>
 <img src="./images/Smiling.png" width="300" height="auto" alt="A sketch of a tree" />
 
 ## What is Etch-a-Sketch ?
@@ -20,7 +21,7 @@ During the development of the Etch-a-Sketch project, I gained valuable knowledge
 - Functions:
   Utilizing functions helped in organizing the code and making it modular, improving readability and maintainability.
 - HTML, CSS and JavaScript:
-  Working on this project allowed me to enhance my proficiency in these web technologies, enabling me to create engaging and responsive applications.
+  Working on this project allowed me to enhance my proficiency in these web technologies, enabling me to create engaging applications.
 
 Overall, the Etch-a-Sketch project provided me with practical experience in web development and improved my proficiency in HTML, CSS, and JavaScript. I learned how to create an interactive application that fosters creativity and artistic expression while utilizing key web development concepts effectively. The addition of the reset button further enhances the usability of the application, providing users with a convenient way to clear the canvas and start afresh.
 
